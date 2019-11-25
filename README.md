@@ -6,6 +6,8 @@ Collection of quick scripts. Sloppy, but they work. Some might even be useful!
 * Just a few scripts for an assignment intended to teach strings and tuples
 
 
+
+
                ,▄▄▄▄▄▄██▄█▄▄▄▄▄  ,,
               ██████████████████████▄█▄
          ╒▄██████████████████████████████ ▄
