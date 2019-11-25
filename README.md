@@ -3,7 +3,7 @@ Collection of quick scripts. Sloppy, but they work. Some might even be useful!
 ***
 # Quick description
 ## /assignment_7
-Just a few scripts for an assignment intended to teach strings and tuples
+* Just a few scripts for an assignment intended to teach strings and tuples
 
 
                ,▄▄▄▄▄▄██▄█▄▄▄▄▄  ,,
