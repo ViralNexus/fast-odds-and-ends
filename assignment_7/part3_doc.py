@@ -1,35 +1,27 @@
 # Date: 11/22/2019
 
 """EDITED 11/24/2019 7:23PM EST
-
 	Quick assignment - Part III
-
 	(Direct quote from instructions)
-
 	Design a program that asks the user to enter a series of 20 numbers.
 	The program should store the numbers in a list then display the following data:
-
 	The lowest number in the list
 	The highest number in the list
 	The total of the numbers in the list
 	The average of the numbers in the list
 ********************************************************************************
 	(Quote cont.)
-
 	Here's the input/output of your program you are to run:
-
 	Enter number 1 to store: 10
 	Enter number 2 to store: 65
 	.....
 	Enter number 19 to store: 9
 	Enter number 20 to store: 1
-
 	The lowest number in the list is XX
 	The highest number in the list is XX
 	The total of the numbers in the list is XX
 	The average of the numbers in the list is XX
 ********************************************************************************
-
 	There is no help for the commandline args. They were for me and I just left it.
 Screenshots of code plus I/O are required. Figured I'd see if the prof caught it.
 Especially with this... 20 ints... testing... nah.
@@ -39,30 +31,25 @@ taking place automatically and the variables being used as input. Made exception
 handler for the import. Colorama is not included and not mean to be -- the only
 purpose is to color my debug messages on the undocumented switch.
 	Last thing ... the clearscreen. Quick and easy clean for new screenshots.
-
 ******************************************************************************
-
 __   _   ___   __   __    ____    _
  \    ___) (__    __) |  |    |  |
   |  (__      |  |    |  |    |  |
   |   __)     |  |    |  |    |  |
   |  (        |  |     \  \/\/  /
 _/_  _\_______|__|______\  __  /___
-
-
 			........					(╯°Д°)╯︵ ┻━┻
 """
 def main():
 	"""
 	The main() function of the program.
-
 	Takes no values, returns no values.
 	"""
 	print("\n{}\n{:^80}\n{}\n".format('-'*80, ".:|Number Sorting with Lists|:.", '-'*80) )
 
 	if DFLAG: # debug flag True:\n print dbgmsg
 		DBGMSG("Loading num_list from default...\n")
-	else: # felt cute. decided to add an opening description. maybe add a GUI l8r
+	else: # felt cute. decided to open w/a description. maybe add a GUI l8r. idk.
 		print("""
 		\n
 		This program takes 20 numbers input by the user and
